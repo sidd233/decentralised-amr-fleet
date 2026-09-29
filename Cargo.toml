@@ -1,0 +1,22 @@
+[package]
+name = "sih26123"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+tokio = { version = "1.53.1", features = ["rt-multi-thread", "net", "sync", "time", "macros"] }
+socket2 = "0.6.5"
+axum = { version = "0.8.9", features = ["ws"] }
+tower-http = { version = "0.6", features = ["fs"] }
+clap = { version = "4.6.7", features = ["derive"] }
+rand = "0.10.3"
+
+[dev-dependencies]
+# Item 26: `tests/no_collisions_e2e.rs` connects to the real dashboard's `/ws` as a
+# plain WebSocket client, over the same real docker-compose stack it also drives —
+# already a transitive dependency via `axum`'s `ws` feature, promoted to a direct
+# dev-dependency since a test needs to construct a client connection with it directly.
+tokio-tungstenite = "0.29.0"
+futures-util = "0.3.34"

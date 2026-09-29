@@ -1,0 +1,7 @@
+{
+  "consecutive_runs": 27,
+  "longest_run_ticks": 5,
+  "note": "test-mode dump from tests/no_collisions_e2e.rs, not harness/metrics_schema.json's full cross-system shape — see this file's own doc comment for why.",
+  "ticks_observed_complete": 107,
+  "vertex_or_edge_collisions_found": false
+}

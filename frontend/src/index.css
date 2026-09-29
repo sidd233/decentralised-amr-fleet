@@ -1,0 +1,134 @@
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --panel: #f6f8fa;
+  --text: #1f2328;
+  --border: #d0d7de;
+  font: 16px/1.4 system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --text: #e6edf3;
+    --border: #30363d;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.status-ok {
+  color: #3fb950;
+}
+
+.status-down {
+  color: #f85149;
+}
+
+.fleet-canvas {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #0d1117;
+}
+
+.fleet-table {
+  width: 100%;
+  margin-top: 16px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.fleet-table th,
+.fleet-table td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.fleet-table th {
+  background: var(--panel);
+}
+
+.replay-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.control-panel {
+  margin-bottom: 12px;
+}
+
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.mode-picker {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.mode-picker .selected {
+  outline: 2px solid #58a6ff;
+}
+
+button.primary {
+  background: #238636;
+  color: #fff;
+}
+
+button.danger {
+  background: #da3633;
+  color: #fff;
+}
+
+.hint,
+.msg {
+  margin: 6px 0;
+  font-size: 13px;
+  color: #8b949e;
+}
+
+.msg.error {
+  color: #f85149;
+}
+
+.status-done td {
+  opacity: 0.6;
+}
+
+.status-cancelled td {
+  opacity: 0.4;
+  text-decoration: line-through;
+}

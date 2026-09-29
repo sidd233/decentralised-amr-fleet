@@ -1,0 +1,196 @@
+# Item 25 of docs/BUILD_PLAN.md, Phase 7's "full stack up, manual smoke test with 3
+# robot containers" gate, since extended to 6 (by request) to demonstrate the fleet
+# scales past the gate's minimum — Decision 1's stated benchmark scope is "3-8 robots,"
+# and nothing in the codebase caps the fleet at 3 (robot ids are plain `u32`; the two
+# reserved sentinels, `CLOCK_DRIVER_ID`/`BOOTSTRAP_TOKEN_ID`/`DASHBOARD_LISTENER_ID`, sit
+# at the very top of that range). Verified for real: `docker compose up` with all 6
+# robot containers plus clock/dashboard/bootstrap-token completed real task assignment
+# and movement with zero collisions, same as the original 3-robot gate. One container per
+# real process, all built from the same
+# Dockerfile image (item 22/24) and sharing one Docker bridge network, exactly like
+# CLAUDE.md's "each robot is a genuinely separate OS process communicating over real UDP
+# sockets, even in simulation mode" — this file just formalizes the manual `docker run`
+# invocations already used to verify Decisions 12/13 into something reproducible.
+#
+# `--max-ticks` is set on every *robot* so `docker compose up` finishes on its own for a
+# smoke test (`tests/no_collisions_e2e.rs` relies on that) — a real, indefinitely-running
+# deployment would omit it, same as `main.rs`'s own `--max-ticks`-optional CLI design
+# already assumes. The interactive demo (dashboard-launched scenarios) runs unbounded.
+#
+# `clock` deliberately does NOT take `--max-ticks` — Decision 14 (`docs/decisions.md`):
+# a bounded clock is unsafe to pair with independently-paced robots. `robot/mod.rs`'s
+# `wait_for_tick` blocks forever for the *next* broadcast once it falls behind; if the
+# clock stops broadcasting first (its own fixed budget elapsing before every robot has
+# caught up — a real, reproduced failure under this kind of multi-container real load,
+# not hypothetical), every robot still short of its own `--max-ticks` hangs permanently,
+# with no way to ever finish. The clock runs forever instead, exactly like `dashboard` —
+# both get torn down externally (`docker compose down`) once the robots (and
+# `bootstrap-token`) have all exited on their own.
+#
+# `bootstrap-token` (Decision 13) needs every robot listening before it sends the fleet's
+# first token, and compose's `depends_on` only waits for a container to *start*, not for
+# its socket to actually be bound — so its entrypoint is overridden with a short shell
+# sleep first, deliberately generous (`sleep 3`) rather than tuned to the edge, since
+# `bootstrap-token`'s own resend loop (`main.rs`) adds further slack on top of it.
+#
+# Resource caps (`docs/TESTING_PLAN.md` Phase 6 gate, confirmed clean per Decision 12) are
+# set per-robot via `deploy.resources.limits` — the `docker run --cpus/--memory` flags'
+# compose equivalent, applied by Compose V2 without needing Swarm mode.
+
+# Profiles: a plain `docker compose up` starts only `clock` + `dashboard` — the interactive
+# demo, where the dashboard launches the robots you place. The fixed 6-robot smoke fleet
+# below (and `bootstrap-token`) is `--profile smoke`, which `tests/no_collisions_e2e.rs`
+# selects; don't run both at once (they'd reuse robot ids 1-6).
+
+services:
+  clock:
+    build: .
+    command: ["clock"]
+
+  dashboard:
+    build: .
+    # `--manage-fleet` (Decision 18): the dashboard is also the operator console — it
+    # launches robot processes with chosen start cells and injects jobs / blocked cells.
+    command: ["dashboard", "--http-port", "8080", "--manage-fleet"]
+    ports:
+      - "8080:8080"
+
+  robot1:
+    build: .
+    profiles: ["smoke"]
+    command:
+      [
+        "robot", "--id", "1",
+        "--map", "maps/warehouse-10-20-10-2-1.map",
+        "--start", "5,1",
+        "--peers", "1,2,3,4,5,6",
+        "--task", "50,4,60,7",
+        "--task", "70,10,80,13",
+        "--task", "140,55,150,58",
+        "--seed", "1",
+        "--max-ticks", "300",
+      ]
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+
+  robot2:
+    build: .
+    profiles: ["smoke"]
+    command:
+      [
+        "robot", "--id", "2",
+        "--map", "maps/warehouse-10-20-10-2-1.map",
+        "--start", "10,1",
+        "--peers", "1,2,3,4,5,6",
+        "--task", "50,4,60,7",
+        "--task", "70,10,80,13",
+        "--task", "140,55,150,58",
+        "--seed", "2",
+        "--max-ticks", "300",
+      ]
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+
+  robot3:
+    build: .
+    profiles: ["smoke"]
+    command:
+      [
+        "robot", "--id", "3",
+        "--map", "maps/warehouse-10-20-10-2-1.map",
+        "--start", "139,51",
+        "--peers", "1,2,3,4,5,6",
+        "--task", "50,4,60,7",
+        "--task", "70,10,80,13",
+        "--task", "140,55,150,58",
+        "--seed", "3",
+        "--max-ticks", "300",
+      ]
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+
+  robot4:
+    build: .
+    profiles: ["smoke"]
+    command:
+      [
+        "robot", "--id", "4",
+        "--map", "maps/warehouse-10-20-10-2-1.map",
+        "--start", "15,1",
+        "--peers", "1,2,3,4,5,6",
+        "--task", "50,4,60,7",
+        "--task", "70,10,80,13",
+        "--task", "140,55,150,58",
+        "--seed", "4",
+        "--max-ticks", "300",
+      ]
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+
+  robot5:
+    build: .
+    profiles: ["smoke"]
+    command:
+      [
+        "robot", "--id", "5",
+        "--map", "maps/warehouse-10-20-10-2-1.map",
+        "--start", "20,1",
+        "--peers", "1,2,3,4,5,6",
+        "--task", "50,4,60,7",
+        "--task", "70,10,80,13",
+        "--task", "140,55,150,58",
+        "--seed", "5",
+        "--max-ticks", "300",
+      ]
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+
+  robot6:
+    build: .
+    profiles: ["smoke"]
+    command:
+      [
+        "robot", "--id", "6",
+        "--map", "maps/warehouse-10-20-10-2-1.map",
+        "--start", "25,1",
+        "--peers", "1,2,3,4,5,6",
+        "--task", "50,4,60,7",
+        "--task", "70,10,80,13",
+        "--task", "140,55,150,58",
+        "--seed", "6",
+        "--max-ticks", "300",
+      ]
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+
+  bootstrap-token:
+    build: .
+    profiles: ["smoke"]
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["sleep 3 && /usr/local/bin/sih26123 bootstrap-token --peers 1,2,3,4,5,6"]
+    depends_on:
+      - robot1
+      - robot2
+      - robot3
+      - robot4
+      - robot5
+      - robot6
+    restart: "no"

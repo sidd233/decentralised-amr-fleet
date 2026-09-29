@@ -1,0 +1,5134 @@
+{
+  "runs": [
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 445,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 202,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 243
+        },
+        {
+          "distance": 151,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 294
+        },
+        {
+          "distance": 263,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 182
+        },
+        {
+          "distance": 181,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 264
+        },
+        {
+          "distance": 225,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 220
+        },
+        {
+          "distance": 133,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 312
+        },
+        {
+          "distance": 180,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 265
+        },
+        {
+          "distance": 241,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 204
+        },
+        {
+          "distance": 430,
+          "robot_id": 9,
+          "tasks_completed": 3,
+          "wait_ticks": 15
+        },
+        {
+          "distance": 174,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 271
+        }
+      ],
+      "run_id": "pibt_token-seed1",
+      "seed": 1,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2180,
+      "total_wait_ticks": 2270,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 3,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 160,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2840
+        },
+        {
+          "distance": 151,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2849
+        },
+        {
+          "distance": 263,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2737
+        },
+        {
+          "distance": 181,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2819
+        },
+        {
+          "distance": 225,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2775
+        },
+        {
+          "distance": 133,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2867
+        },
+        {
+          "distance": 180,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2820
+        },
+        {
+          "distance": 241,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 2759
+        },
+        {
+          "distance": 132,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2868
+        },
+        {
+          "distance": 137,
+          "robot_id": 10,
+          "tasks_completed": 0,
+          "wait_ticks": 2863
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed1",
+      "seed": 1,
+      "system": "stop_and_wait",
+      "tasks_completed": 17,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1803,
+      "total_wait_ticks": 28197,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 418,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 209,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 209
+        },
+        {
+          "distance": 153,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 265
+        },
+        {
+          "distance": 132,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 286
+        },
+        {
+          "distance": 178,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 240
+        },
+        {
+          "distance": 156,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 262
+        },
+        {
+          "distance": 363,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 55
+        },
+        {
+          "distance": 158,
+          "robot_id": 7,
+          "tasks_completed": 3,
+          "wait_ticks": 260
+        },
+        {
+          "distance": 404,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 14
+        },
+        {
+          "distance": 212,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 206
+        },
+        {
+          "distance": 262,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 156
+        }
+      ],
+      "run_id": "pibt_token-seed2",
+      "seed": 2,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2227,
+      "total_wait_ticks": 1953,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 5,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 106,
+          "robot_id": 1,
+          "tasks_completed": 0,
+          "wait_ticks": 2894
+        },
+        {
+          "distance": 46,
+          "robot_id": 2,
+          "tasks_completed": 0,
+          "wait_ticks": 2954
+        },
+        {
+          "distance": 334,
+          "robot_id": 3,
+          "tasks_completed": 4,
+          "wait_ticks": 2666
+        },
+        {
+          "distance": 382,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 2618
+        },
+        {
+          "distance": 103,
+          "robot_id": 5,
+          "tasks_completed": 0,
+          "wait_ticks": 2897
+        },
+        {
+          "distance": 341,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 2659
+        },
+        {
+          "distance": 242,
+          "robot_id": 7,
+          "tasks_completed": 3,
+          "wait_ticks": 2758
+        },
+        {
+          "distance": 40,
+          "robot_id": 8,
+          "tasks_completed": 0,
+          "wait_ticks": 2960
+        },
+        {
+          "distance": 212,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2788
+        },
+        {
+          "distance": 262,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2738
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed2",
+      "seed": 2,
+      "system": "stop_and_wait",
+      "tasks_completed": 15,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2068,
+      "total_wait_ticks": 27932,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 432,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 166,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 266
+        },
+        {
+          "distance": 229,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 203
+        },
+        {
+          "distance": 230,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 202
+        },
+        {
+          "distance": 184,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 248
+        },
+        {
+          "distance": 165,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 267
+        },
+        {
+          "distance": 220,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 212
+        },
+        {
+          "distance": 153,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 279
+        },
+        {
+          "distance": 175,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 257
+        },
+        {
+          "distance": 416,
+          "robot_id": 9,
+          "tasks_completed": 3,
+          "wait_ticks": 16
+        },
+        {
+          "distance": 160,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 272
+        }
+      ],
+      "run_id": "pibt_token-seed3",
+      "seed": 3,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2098,
+      "total_wait_ticks": 2222,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 3,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 96,
+          "robot_id": 1,
+          "tasks_completed": 0,
+          "wait_ticks": 2904
+        },
+        {
+          "distance": 229,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2771
+        },
+        {
+          "distance": 230,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2770
+        },
+        {
+          "distance": 184,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2816
+        },
+        {
+          "distance": 92,
+          "robot_id": 5,
+          "tasks_completed": 0,
+          "wait_ticks": 2908
+        },
+        {
+          "distance": 220,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2780
+        },
+        {
+          "distance": 151,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2849
+        },
+        {
+          "distance": 175,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 2825
+        },
+        {
+          "distance": 414,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2586
+        },
+        {
+          "distance": 150,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2850
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed3",
+      "seed": 3,
+      "system": "stop_and_wait",
+      "tasks_completed": 17,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1941,
+      "total_wait_ticks": 28059,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": true,
+      "completion_ticks": 418,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": -7.731958762886598,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 205,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 213
+        },
+        {
+          "distance": 166,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 252
+        },
+        {
+          "distance": 378,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 40
+        },
+        {
+          "distance": 324,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 94
+        },
+        {
+          "distance": 274,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 144
+        },
+        {
+          "distance": 161,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 257
+        },
+        {
+          "distance": 240,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 178
+        },
+        {
+          "distance": 181,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 237
+        },
+        {
+          "distance": 403,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 15
+        },
+        {
+          "distance": 215,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 203
+        }
+      ],
+      "run_id": "pibt_token-seed4",
+      "seed": 4,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2547,
+      "total_wait_ticks": 1633,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": true,
+      "completion_ticks": 388,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 205,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 183
+        },
+        {
+          "distance": 166,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 222
+        },
+        {
+          "distance": 378,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 10
+        },
+        {
+          "distance": 324,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 64
+        },
+        {
+          "distance": 274,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 114
+        },
+        {
+          "distance": 161,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 227
+        },
+        {
+          "distance": 240,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 148
+        },
+        {
+          "distance": 181,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 207
+        },
+        {
+          "distance": 375,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 13
+        },
+        {
+          "distance": 215,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 173
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed4",
+      "seed": 4,
+      "system": "stop_and_wait",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2519,
+      "total_wait_ticks": 1361,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 273,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 155,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 118
+        },
+        {
+          "distance": 179,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 94
+        },
+        {
+          "distance": 196,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 77
+        },
+        {
+          "distance": 246,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 27
+        },
+        {
+          "distance": 207,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 66
+        },
+        {
+          "distance": 258,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 15
+        },
+        {
+          "distance": 145,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 128
+        },
+        {
+          "distance": 260,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 13
+        },
+        {
+          "distance": 167,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 106
+        },
+        {
+          "distance": 252,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 21
+        }
+      ],
+      "run_id": "pibt_token-seed5",
+      "seed": 5,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2065,
+      "total_wait_ticks": 665,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 2,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 332,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2668
+        },
+        {
+          "distance": 67,
+          "robot_id": 2,
+          "tasks_completed": 0,
+          "wait_ticks": 2933
+        },
+        {
+          "distance": 196,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2804
+        },
+        {
+          "distance": 246,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 2754
+        },
+        {
+          "distance": 65,
+          "robot_id": 5,
+          "tasks_completed": 0,
+          "wait_ticks": 2935
+        },
+        {
+          "distance": 258,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2742
+        },
+        {
+          "distance": 249,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2751
+        },
+        {
+          "distance": 260,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 2740
+        },
+        {
+          "distance": 167,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2833
+        },
+        {
+          "distance": 252,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2748
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed5",
+      "seed": 5,
+      "system": "stop_and_wait",
+      "tasks_completed": 18,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2092,
+      "total_wait_ticks": 27908,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 403,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 290,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 113
+        },
+        {
+          "distance": 261,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 142
+        },
+        {
+          "distance": 270,
+          "robot_id": 3,
+          "tasks_completed": 3,
+          "wait_ticks": 133
+        },
+        {
+          "distance": 182,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 221
+        },
+        {
+          "distance": 339,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 64
+        },
+        {
+          "distance": 395,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 8
+        },
+        {
+          "distance": 174,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 229
+        },
+        {
+          "distance": 264,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 139
+        },
+        {
+          "distance": 234,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 169
+        },
+        {
+          "distance": 391,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 12
+        }
+      ],
+      "run_id": "pibt_token-seed6",
+      "seed": 6,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2800,
+      "total_wait_ticks": 1230,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 4,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 263,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2737
+        },
+        {
+          "distance": 255,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2745
+        },
+        {
+          "distance": 258,
+          "robot_id": 3,
+          "tasks_completed": 3,
+          "wait_ticks": 2742
+        },
+        {
+          "distance": 182,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2818
+        },
+        {
+          "distance": 266,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2734
+        },
+        {
+          "distance": 211,
+          "robot_id": 6,
+          "tasks_completed": 1,
+          "wait_ticks": 2789
+        },
+        {
+          "distance": 174,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2826
+        },
+        {
+          "distance": 232,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2768
+        },
+        {
+          "distance": 234,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2766
+        },
+        {
+          "distance": 219,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2781
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed6",
+      "seed": 6,
+      "system": "stop_and_wait",
+      "tasks_completed": 16,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2294,
+      "total_wait_ticks": 27706,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 459,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 157,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 302
+        },
+        {
+          "distance": 182,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 277
+        },
+        {
+          "distance": 302,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 157
+        },
+        {
+          "distance": 155,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 304
+        },
+        {
+          "distance": 317,
+          "robot_id": 5,
+          "tasks_completed": 4,
+          "wait_ticks": 142
+        },
+        {
+          "distance": 149,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 310
+        },
+        {
+          "distance": 161,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 298
+        },
+        {
+          "distance": 188,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 271
+        },
+        {
+          "distance": 449,
+          "robot_id": 9,
+          "tasks_completed": 3,
+          "wait_ticks": 10
+        },
+        {
+          "distance": 157,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 302
+        }
+      ],
+      "run_id": "pibt_token-seed7",
+      "seed": 7,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2217,
+      "total_wait_ticks": 2373,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 2,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 157,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2843
+        },
+        {
+          "distance": 177,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2823
+        },
+        {
+          "distance": 93,
+          "robot_id": 3,
+          "tasks_completed": 0,
+          "wait_ticks": 2907
+        },
+        {
+          "distance": 299,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2701
+        },
+        {
+          "distance": 317,
+          "robot_id": 5,
+          "tasks_completed": 4,
+          "wait_ticks": 2683
+        },
+        {
+          "distance": 149,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2851
+        },
+        {
+          "distance": 161,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2839
+        },
+        {
+          "distance": 88,
+          "robot_id": 8,
+          "tasks_completed": 0,
+          "wait_ticks": 2912
+        },
+        {
+          "distance": 445,
+          "robot_id": 9,
+          "tasks_completed": 3,
+          "wait_ticks": 2555
+        },
+        {
+          "distance": 157,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2843
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed7",
+      "seed": 7,
+      "system": "stop_and_wait",
+      "tasks_completed": 18,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2043,
+      "total_wait_ticks": 27957,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 437,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 223,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 214
+        },
+        {
+          "distance": 214,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 223
+        },
+        {
+          "distance": 348,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 89
+        },
+        {
+          "distance": 431,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 6
+        },
+        {
+          "distance": 247,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 190
+        },
+        {
+          "distance": 294,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 143
+        },
+        {
+          "distance": 317,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 120
+        },
+        {
+          "distance": 205,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 232
+        },
+        {
+          "distance": 168,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 269
+        },
+        {
+          "distance": 187,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 250
+        }
+      ],
+      "run_id": "pibt_token-seed8",
+      "seed": 8,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2634,
+      "total_wait_ticks": 1736,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 7,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 369,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 2631
+        },
+        {
+          "distance": 132,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 2868
+        },
+        {
+          "distance": 192,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2808
+        },
+        {
+          "distance": 331,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 2669
+        },
+        {
+          "distance": 75,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2925
+        },
+        {
+          "distance": 453,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 2547
+        },
+        {
+          "distance": 130,
+          "robot_id": 7,
+          "tasks_completed": 0,
+          "wait_ticks": 2870
+        },
+        {
+          "distance": 183,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 2817
+        },
+        {
+          "distance": 74,
+          "robot_id": 9,
+          "tasks_completed": 0,
+          "wait_ticks": 2926
+        },
+        {
+          "distance": 94,
+          "robot_id": 10,
+          "tasks_completed": 0,
+          "wait_ticks": 2906
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed8",
+      "seed": 8,
+      "system": "stop_and_wait",
+      "tasks_completed": 13,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2033,
+      "total_wait_ticks": 27967,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 327,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 306,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 21
+        },
+        {
+          "distance": 167,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 160
+        },
+        {
+          "distance": 125,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 202
+        },
+        {
+          "distance": 180,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 147
+        },
+        {
+          "distance": 226,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 101
+        },
+        {
+          "distance": 122,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 205
+        },
+        {
+          "distance": 145,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 182
+        },
+        {
+          "distance": 311,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 16
+        },
+        {
+          "distance": 243,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 84
+        },
+        {
+          "distance": 147,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 180
+        }
+      ],
+      "run_id": "pibt_token-seed9",
+      "seed": 9,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1972,
+      "total_wait_ticks": 1298,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 6,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 120,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2880
+        },
+        {
+          "distance": 22,
+          "robot_id": 2,
+          "tasks_completed": 0,
+          "wait_ticks": 2978
+        },
+        {
+          "distance": 22,
+          "robot_id": 3,
+          "tasks_completed": 0,
+          "wait_ticks": 2978
+        },
+        {
+          "distance": 118,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 2882
+        },
+        {
+          "distance": 329,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 2671
+        },
+        {
+          "distance": 229,
+          "robot_id": 6,
+          "tasks_completed": 4,
+          "wait_ticks": 2771
+        },
+        {
+          "distance": 251,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2749
+        },
+        {
+          "distance": 16,
+          "robot_id": 8,
+          "tasks_completed": 0,
+          "wait_ticks": 2984
+        },
+        {
+          "distance": 14,
+          "robot_id": 9,
+          "tasks_completed": 0,
+          "wait_ticks": 2986
+        },
+        {
+          "distance": 344,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2656
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed9",
+      "seed": 9,
+      "system": "stop_and_wait",
+      "tasks_completed": 14,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1465,
+      "total_wait_ticks": 28535,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 315,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 186,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 129
+        },
+        {
+          "distance": 173,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 142
+        },
+        {
+          "distance": 197,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 118
+        },
+        {
+          "distance": 226,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 89
+        },
+        {
+          "distance": 257,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 58
+        },
+        {
+          "distance": 287,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 28
+        },
+        {
+          "distance": 236,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 79
+        },
+        {
+          "distance": 153,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 162
+        },
+        {
+          "distance": 263,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 52
+        },
+        {
+          "distance": 304,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 11
+        }
+      ],
+      "run_id": "pibt_token-seed10",
+      "seed": 10,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2282,
+      "total_wait_ticks": 868,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 5,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 237,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 2763
+        },
+        {
+          "distance": 26,
+          "robot_id": 2,
+          "tasks_completed": 0,
+          "wait_ticks": 2974
+        },
+        {
+          "distance": 248,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2752
+        },
+        {
+          "distance": 406,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 2594
+        },
+        {
+          "distance": 23,
+          "robot_id": 5,
+          "tasks_completed": 0,
+          "wait_ticks": 2977
+        },
+        {
+          "distance": 299,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2701
+        },
+        {
+          "distance": 295,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2705
+        },
+        {
+          "distance": 278,
+          "robot_id": 8,
+          "tasks_completed": 4,
+          "wait_ticks": 2722
+        },
+        {
+          "distance": 99,
+          "robot_id": 9,
+          "tasks_completed": 0,
+          "wait_ticks": 2901
+        },
+        {
+          "distance": 42,
+          "robot_id": 10,
+          "tasks_completed": 0,
+          "wait_ticks": 2958
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed10",
+      "seed": 10,
+      "system": "stop_and_wait",
+      "tasks_completed": 15,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1953,
+      "total_wait_ticks": 28047,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 273,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 147,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 126
+        },
+        {
+          "distance": 181,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 92
+        },
+        {
+          "distance": 245,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 28
+        },
+        {
+          "distance": 252,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 21
+        },
+        {
+          "distance": 264,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 9
+        },
+        {
+          "distance": 158,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 115
+        },
+        {
+          "distance": 171,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 102
+        },
+        {
+          "distance": 151,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 122
+        },
+        {
+          "distance": 154,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 119
+        },
+        {
+          "distance": 241,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 32
+        }
+      ],
+      "run_id": "pibt_token-seed11",
+      "seed": 11,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1964,
+      "total_wait_ticks": 766,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 2,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 147,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2853
+        },
+        {
+          "distance": 181,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 2819
+        },
+        {
+          "distance": 245,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2755
+        },
+        {
+          "distance": 155,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 2845
+        },
+        {
+          "distance": 264,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2736
+        },
+        {
+          "distance": 158,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 2842
+        },
+        {
+          "distance": 171,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2829
+        },
+        {
+          "distance": 136,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2864
+        },
+        {
+          "distance": 154,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2846
+        },
+        {
+          "distance": 241,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2759
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed11",
+      "seed": 11,
+      "system": "stop_and_wait",
+      "tasks_completed": 18,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1852,
+      "total_wait_ticks": 28148,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 306,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 170,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 136
+        },
+        {
+          "distance": 301,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 5
+        },
+        {
+          "distance": 187,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 119
+        },
+        {
+          "distance": 152,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 154
+        },
+        {
+          "distance": 161,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 145
+        },
+        {
+          "distance": 226,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 80
+        },
+        {
+          "distance": 196,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 110
+        },
+        {
+          "distance": 276,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 30
+        },
+        {
+          "distance": 182,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 124
+        },
+        {
+          "distance": 168,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 138
+        }
+      ],
+      "run_id": "pibt_token-seed12",
+      "seed": 12,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2019,
+      "total_wait_ticks": 1041,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 6,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 135,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2865
+        },
+        {
+          "distance": 301,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2699
+        },
+        {
+          "distance": 115,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2885
+        },
+        {
+          "distance": 134,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 2866
+        },
+        {
+          "distance": 132,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2868
+        },
+        {
+          "distance": 219,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2781
+        },
+        {
+          "distance": 115,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2885
+        },
+        {
+          "distance": 244,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 2756
+        },
+        {
+          "distance": 182,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2818
+        },
+        {
+          "distance": 120,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2880
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed12",
+      "seed": 12,
+      "system": "stop_and_wait",
+      "tasks_completed": 14,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1697,
+      "total_wait_ticks": 28303,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 495,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 173,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 322
+        },
+        {
+          "distance": 492,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 3
+        },
+        {
+          "distance": 180,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 315
+        },
+        {
+          "distance": 235,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 260
+        },
+        {
+          "distance": 206,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 289
+        },
+        {
+          "distance": 304,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 191
+        },
+        {
+          "distance": 243,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 252
+        },
+        {
+          "distance": 166,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 329
+        },
+        {
+          "distance": 404,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 91
+        },
+        {
+          "distance": 171,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 324
+        }
+      ],
+      "run_id": "pibt_token-seed13",
+      "seed": 13,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2574,
+      "total_wait_ticks": 2376,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 3,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 173,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2827
+        },
+        {
+          "distance": 258,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 2742
+        },
+        {
+          "distance": 180,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2820
+        },
+        {
+          "distance": 235,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 2765
+        },
+        {
+          "distance": 206,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2794
+        },
+        {
+          "distance": 209,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2791
+        },
+        {
+          "distance": 211,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2789
+        },
+        {
+          "distance": 166,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2834
+        },
+        {
+          "distance": 404,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2596
+        },
+        {
+          "distance": 171,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2829
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed13",
+      "seed": 13,
+      "system": "stop_and_wait",
+      "tasks_completed": 17,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2213,
+      "total_wait_ticks": 27787,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 516,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 282,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 234
+        },
+        {
+          "distance": 219,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 297
+        },
+        {
+          "distance": 506,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 10
+        },
+        {
+          "distance": 177,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 339
+        },
+        {
+          "distance": 198,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 318
+        },
+        {
+          "distance": 238,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 278
+        },
+        {
+          "distance": 352,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 164
+        },
+        {
+          "distance": 249,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 267
+        },
+        {
+          "distance": 211,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 305
+        },
+        {
+          "distance": 282,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 234
+        }
+      ],
+      "run_id": "pibt_token-seed14",
+      "seed": 14,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2714,
+      "total_wait_ticks": 2446,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 7,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 76,
+          "robot_id": 1,
+          "tasks_completed": 0,
+          "wait_ticks": 2924
+        },
+        {
+          "distance": 433,
+          "robot_id": 2,
+          "tasks_completed": 4,
+          "wait_ticks": 2567
+        },
+        {
+          "distance": 300,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2700
+        },
+        {
+          "distance": 315,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2685
+        },
+        {
+          "distance": 173,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2827
+        },
+        {
+          "distance": 72,
+          "robot_id": 6,
+          "tasks_completed": 0,
+          "wait_ticks": 2928
+        },
+        {
+          "distance": 221,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2779
+        },
+        {
+          "distance": 14,
+          "robot_id": 8,
+          "tasks_completed": 0,
+          "wait_ticks": 2986
+        },
+        {
+          "distance": 346,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2654
+        },
+        {
+          "distance": 11,
+          "robot_id": 10,
+          "tasks_completed": 0,
+          "wait_ticks": 2989
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed14",
+      "seed": 14,
+      "system": "stop_and_wait",
+      "tasks_completed": 13,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1961,
+      "total_wait_ticks": 28039,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 362,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 210,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 152
+        },
+        {
+          "distance": 251,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 111
+        },
+        {
+          "distance": 212,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 150
+        },
+        {
+          "distance": 181,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 181
+        },
+        {
+          "distance": 357,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 5
+        },
+        {
+          "distance": 287,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 75
+        },
+        {
+          "distance": 154,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 208
+        },
+        {
+          "distance": 242,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 120
+        },
+        {
+          "distance": 195,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 167
+        },
+        {
+          "distance": 147,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 215
+        }
+      ],
+      "run_id": "pibt_token-seed15",
+      "seed": 15,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2236,
+      "total_wait_ticks": 1384,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 3,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 163,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2837
+        },
+        {
+          "distance": 251,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 2749
+        },
+        {
+          "distance": 212,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2788
+        },
+        {
+          "distance": 181,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2819
+        },
+        {
+          "distance": 229,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2771
+        },
+        {
+          "distance": 287,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2713
+        },
+        {
+          "distance": 154,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2846
+        },
+        {
+          "distance": 225,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 2775
+        },
+        {
+          "distance": 195,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2805
+        },
+        {
+          "distance": 137,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2863
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed15",
+      "seed": 15,
+      "system": "stop_and_wait",
+      "tasks_completed": 17,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2034,
+      "total_wait_ticks": 27966,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 496,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 211,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 285
+        },
+        {
+          "distance": 314,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 182
+        },
+        {
+          "distance": 193,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 303
+        },
+        {
+          "distance": 340,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 156
+        },
+        {
+          "distance": 319,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 177
+        },
+        {
+          "distance": 172,
+          "robot_id": 6,
+          "tasks_completed": 1,
+          "wait_ticks": 324
+        },
+        {
+          "distance": 209,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 287
+        },
+        {
+          "distance": 482,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 14
+        },
+        {
+          "distance": 174,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 322
+        },
+        {
+          "distance": 183,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 313
+        }
+      ],
+      "run_id": "pibt_token-seed16",
+      "seed": 16,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2597,
+      "total_wait_ticks": 2363,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 4,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 211,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2789
+        },
+        {
+          "distance": 87,
+          "robot_id": 2,
+          "tasks_completed": 0,
+          "wait_ticks": 2913
+        },
+        {
+          "distance": 187,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2813
+        },
+        {
+          "distance": 312,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2688
+        },
+        {
+          "distance": 394,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 2606
+        },
+        {
+          "distance": 217,
+          "robot_id": 6,
+          "tasks_completed": 1,
+          "wait_ticks": 2783
+        },
+        {
+          "distance": 209,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2791
+        },
+        {
+          "distance": 307,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2693
+        },
+        {
+          "distance": 79,
+          "robot_id": 9,
+          "tasks_completed": 0,
+          "wait_ticks": 2921
+        },
+        {
+          "distance": 183,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2817
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed16",
+      "seed": 16,
+      "system": "stop_and_wait",
+      "tasks_completed": 16,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2186,
+      "total_wait_ticks": 27814,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 444,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 333,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 111
+        },
+        {
+          "distance": 290,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 154
+        },
+        {
+          "distance": 246,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 198
+        },
+        {
+          "distance": 196,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 248
+        },
+        {
+          "distance": 295,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 149
+        },
+        {
+          "distance": 234,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 210
+        },
+        {
+          "distance": 287,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 157
+        },
+        {
+          "distance": 429,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 15
+        },
+        {
+          "distance": 237,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 207
+        },
+        {
+          "distance": 175,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 269
+        }
+      ],
+      "run_id": "pibt_token-seed17",
+      "seed": 17,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2722,
+      "total_wait_ticks": 1718,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 4,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 333,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2667
+        },
+        {
+          "distance": 84,
+          "robot_id": 2,
+          "tasks_completed": 0,
+          "wait_ticks": 2916
+        },
+        {
+          "distance": 82,
+          "robot_id": 3,
+          "tasks_completed": 0,
+          "wait_ticks": 2918
+        },
+        {
+          "distance": 1,
+          "robot_id": 4,
+          "tasks_completed": 0,
+          "wait_ticks": 2999
+        },
+        {
+          "distance": 476,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 2524
+        },
+        {
+          "distance": 301,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 2699
+        },
+        {
+          "distance": 0,
+          "robot_id": 7,
+          "tasks_completed": 0,
+          "wait_ticks": 3000
+        },
+        {
+          "distance": 317,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2683
+        },
+        {
+          "distance": 326,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2674
+        },
+        {
+          "distance": 529,
+          "robot_id": 10,
+          "tasks_completed": 4,
+          "wait_ticks": 2471
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed17",
+      "seed": 17,
+      "system": "stop_and_wait",
+      "tasks_completed": 16,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2449,
+      "total_wait_ticks": 27551,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 272,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 118,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 154
+        },
+        {
+          "distance": 207,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 65
+        },
+        {
+          "distance": 261,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 11
+        },
+        {
+          "distance": 196,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 76
+        },
+        {
+          "distance": 152,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 120
+        },
+        {
+          "distance": 231,
+          "robot_id": 6,
+          "tasks_completed": 3,
+          "wait_ticks": 41
+        },
+        {
+          "distance": 134,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 138
+        },
+        {
+          "distance": 218,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 54
+        },
+        {
+          "distance": 215,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 57
+        },
+        {
+          "distance": 142,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 130
+        }
+      ],
+      "run_id": "pibt_token-seed18",
+      "seed": 18,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1874,
+      "total_wait_ticks": 846,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 2,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 118,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 2882
+        },
+        {
+          "distance": 207,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2793
+        },
+        {
+          "distance": 196,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2804
+        },
+        {
+          "distance": 196,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2804
+        },
+        {
+          "distance": 152,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2848
+        },
+        {
+          "distance": 195,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2805
+        },
+        {
+          "distance": 134,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2866
+        },
+        {
+          "distance": 218,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2782
+        },
+        {
+          "distance": 215,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2785
+        },
+        {
+          "distance": 142,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2858
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed18",
+      "seed": 18,
+      "system": "stop_and_wait",
+      "tasks_completed": 18,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1773,
+      "total_wait_ticks": 28227,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 360,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 153,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 207
+        },
+        {
+          "distance": 198,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 162
+        },
+        {
+          "distance": 353,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 7
+        },
+        {
+          "distance": 247,
+          "robot_id": 4,
+          "tasks_completed": 4,
+          "wait_ticks": 113
+        },
+        {
+          "distance": 248,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 112
+        },
+        {
+          "distance": 157,
+          "robot_id": 6,
+          "tasks_completed": 1,
+          "wait_ticks": 203
+        },
+        {
+          "distance": 267,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 93
+        },
+        {
+          "distance": 182,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 178
+        },
+        {
+          "distance": 154,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 206
+        },
+        {
+          "distance": 241,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 119
+        }
+      ],
+      "run_id": "pibt_token-seed19",
+      "seed": 19,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2200,
+      "total_wait_ticks": 1400,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 1,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 150,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2850
+        },
+        {
+          "distance": 198,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2802
+        },
+        {
+          "distance": 226,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2774
+        },
+        {
+          "distance": 247,
+          "robot_id": 4,
+          "tasks_completed": 4,
+          "wait_ticks": 2753
+        },
+        {
+          "distance": 248,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2752
+        },
+        {
+          "distance": 157,
+          "robot_id": 6,
+          "tasks_completed": 1,
+          "wait_ticks": 2843
+        },
+        {
+          "distance": 267,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2733
+        },
+        {
+          "distance": 182,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2818
+        },
+        {
+          "distance": 154,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2846
+        },
+        {
+          "distance": 241,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2759
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed19",
+      "seed": 19,
+      "system": "stop_and_wait",
+      "tasks_completed": 19,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2070,
+      "total_wait_ticks": 27930,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 425,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 177,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 248
+        },
+        {
+          "distance": 419,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 6
+        },
+        {
+          "distance": 393,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 32
+        },
+        {
+          "distance": 162,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 263
+        },
+        {
+          "distance": 247,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 178
+        },
+        {
+          "distance": 392,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 33
+        },
+        {
+          "distance": 193,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 232
+        },
+        {
+          "distance": 261,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 164
+        },
+        {
+          "distance": 215,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 210
+        },
+        {
+          "distance": 197,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 228
+        }
+      ],
+      "run_id": "pibt_token-seed20",
+      "seed": 20,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2656,
+      "total_wait_ticks": 1594,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 1,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 177,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2823
+        },
+        {
+          "distance": 415,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 2585
+        },
+        {
+          "distance": 393,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2607
+        },
+        {
+          "distance": 162,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 2838
+        },
+        {
+          "distance": 247,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 2753
+        },
+        {
+          "distance": 386,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2614
+        },
+        {
+          "distance": 189,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2811
+        },
+        {
+          "distance": 251,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 2749
+        },
+        {
+          "distance": 215,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2785
+        },
+        {
+          "distance": 187,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2813
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed20",
+      "seed": 20,
+      "system": "stop_and_wait",
+      "tasks_completed": 19,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2622,
+      "total_wait_ticks": 27378,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 511,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 241,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 270
+        },
+        {
+          "distance": 185,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 326
+        },
+        {
+          "distance": 503,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 8
+        },
+        {
+          "distance": 243,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 268
+        },
+        {
+          "distance": 226,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 285
+        },
+        {
+          "distance": 232,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 279
+        },
+        {
+          "distance": 224,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 287
+        },
+        {
+          "distance": 244,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 267
+        },
+        {
+          "distance": 195,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 316
+        },
+        {
+          "distance": 197,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 314
+        }
+      ],
+      "run_id": "pibt_token-seed21",
+      "seed": 21,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2490,
+      "total_wait_ticks": 2620,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 1,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 241,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 2759
+        },
+        {
+          "distance": 185,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 2815
+        },
+        {
+          "distance": 362,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2638
+        },
+        {
+          "distance": 243,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2757
+        },
+        {
+          "distance": 226,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 2774
+        },
+        {
+          "distance": 232,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2768
+        },
+        {
+          "distance": 224,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2776
+        },
+        {
+          "distance": 242,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2758
+        },
+        {
+          "distance": 195,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2805
+        },
+        {
+          "distance": 197,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2803
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed21",
+      "seed": 21,
+      "system": "stop_and_wait",
+      "tasks_completed": 19,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2347,
+      "total_wait_ticks": 27653,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 399,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 205,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 194
+        },
+        {
+          "distance": 389,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 10
+        },
+        {
+          "distance": 203,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 196
+        },
+        {
+          "distance": 135,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 264
+        },
+        {
+          "distance": 152,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 247
+        },
+        {
+          "distance": 259,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 140
+        },
+        {
+          "distance": 181,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 218
+        },
+        {
+          "distance": 158,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 241
+        },
+        {
+          "distance": 148,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 251
+        },
+        {
+          "distance": 195,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 204
+        }
+      ],
+      "run_id": "pibt_token-seed22",
+      "seed": 22,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2025,
+      "total_wait_ticks": 1965,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 5,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 71,
+          "robot_id": 1,
+          "tasks_completed": 0,
+          "wait_ticks": 2929
+        },
+        {
+          "distance": 255,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 2745
+        },
+        {
+          "distance": 83,
+          "robot_id": 3,
+          "tasks_completed": 0,
+          "wait_ticks": 2917
+        },
+        {
+          "distance": 181,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 2819
+        },
+        {
+          "distance": 152,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2848
+        },
+        {
+          "distance": 257,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2743
+        },
+        {
+          "distance": 181,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2819
+        },
+        {
+          "distance": 59,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 2941
+        },
+        {
+          "distance": 199,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2801
+        },
+        {
+          "distance": 195,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2805
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed22",
+      "seed": 22,
+      "system": "stop_and_wait",
+      "tasks_completed": 15,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1633,
+      "total_wait_ticks": 28367,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 378,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 194,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 184
+        },
+        {
+          "distance": 158,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 220
+        },
+        {
+          "distance": 292,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 86
+        },
+        {
+          "distance": 263,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 115
+        },
+        {
+          "distance": 367,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 11
+        },
+        {
+          "distance": 168,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 210
+        },
+        {
+          "distance": 214,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 164
+        },
+        {
+          "distance": 294,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 84
+        },
+        {
+          "distance": 151,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 227
+        },
+        {
+          "distance": 287,
+          "robot_id": 10,
+          "tasks_completed": 4,
+          "wait_ticks": 91
+        }
+      ],
+      "run_id": "pibt_token-seed23",
+      "seed": 23,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2388,
+      "total_wait_ticks": 1392,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 3,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 194,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2806
+        },
+        {
+          "distance": 236,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 2764
+        },
+        {
+          "distance": 180,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2820
+        },
+        {
+          "distance": 364,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 2636
+        },
+        {
+          "distance": 264,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2736
+        },
+        {
+          "distance": 168,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2832
+        },
+        {
+          "distance": 214,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2786
+        },
+        {
+          "distance": 49,
+          "robot_id": 8,
+          "tasks_completed": 0,
+          "wait_ticks": 2951
+        },
+        {
+          "distance": 326,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2674
+        },
+        {
+          "distance": 38,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2962
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed23",
+      "seed": 23,
+      "system": "stop_and_wait",
+      "tasks_completed": 17,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2033,
+      "total_wait_ticks": 27967,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 348,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 227,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 121
+        },
+        {
+          "distance": 129,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 219
+        },
+        {
+          "distance": 144,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 204
+        },
+        {
+          "distance": 175,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 173
+        },
+        {
+          "distance": 141,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 207
+        },
+        {
+          "distance": 140,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 208
+        },
+        {
+          "distance": 174,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 174
+        },
+        {
+          "distance": 337,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 11
+        },
+        {
+          "distance": 163,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 185
+        },
+        {
+          "distance": 164,
+          "robot_id": 10,
+          "tasks_completed": 3,
+          "wait_ticks": 184
+        }
+      ],
+      "run_id": "pibt_token-seed24",
+      "seed": 24,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1794,
+      "total_wait_ticks": 1686,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 2,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 227,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 2773
+        },
+        {
+          "distance": 129,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2871
+        },
+        {
+          "distance": 134,
+          "robot_id": 3,
+          "tasks_completed": 0,
+          "wait_ticks": 2866
+        },
+        {
+          "distance": 175,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 2825
+        },
+        {
+          "distance": 141,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2859
+        },
+        {
+          "distance": 140,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2860
+        },
+        {
+          "distance": 174,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2826
+        },
+        {
+          "distance": 337,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 2663
+        },
+        {
+          "distance": 163,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 2837
+        },
+        {
+          "distance": 124,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2876
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed24",
+      "seed": 24,
+      "system": "stop_and_wait",
+      "tasks_completed": 18,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 1744,
+      "total_wait_ticks": 28256,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 453,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 445,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 8
+        },
+        {
+          "distance": 366,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 87
+        },
+        {
+          "distance": 180,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 273
+        },
+        {
+          "distance": 246,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 207
+        },
+        {
+          "distance": 207,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 246
+        },
+        {
+          "distance": 208,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 245
+        },
+        {
+          "distance": 351,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 102
+        },
+        {
+          "distance": 373,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 80
+        },
+        {
+          "distance": 271,
+          "robot_id": 9,
+          "tasks_completed": 3,
+          "wait_ticks": 182
+        },
+        {
+          "distance": 254,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 199
+        }
+      ],
+      "run_id": "pibt_token-seed25",
+      "seed": 25,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2901,
+      "total_wait_ticks": 1629,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 4,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 180,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2820
+        },
+        {
+          "distance": 41,
+          "robot_id": 2,
+          "tasks_completed": 0,
+          "wait_ticks": 2959
+        },
+        {
+          "distance": 40,
+          "robot_id": 3,
+          "tasks_completed": 0,
+          "wait_ticks": 2960
+        },
+        {
+          "distance": 246,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2754
+        },
+        {
+          "distance": 478,
+          "robot_id": 5,
+          "tasks_completed": 3,
+          "wait_ticks": 2522
+        },
+        {
+          "distance": 208,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2792
+        },
+        {
+          "distance": 358,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2642
+        },
+        {
+          "distance": 369,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2631
+        },
+        {
+          "distance": 271,
+          "robot_id": 9,
+          "tasks_completed": 3,
+          "wait_ticks": 2729
+        },
+        {
+          "distance": 177,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2823
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed25",
+      "seed": 25,
+      "system": "stop_and_wait",
+      "tasks_completed": 16,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2368,
+      "total_wait_ticks": 27632,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 429,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 159,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 270
+        },
+        {
+          "distance": 292,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 137
+        },
+        {
+          "distance": 260,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 169
+        },
+        {
+          "distance": 262,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 167
+        },
+        {
+          "distance": 328,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 101
+        },
+        {
+          "distance": 291,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 138
+        },
+        {
+          "distance": 284,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 145
+        },
+        {
+          "distance": 222,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 207
+        },
+        {
+          "distance": 414,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 15
+        },
+        {
+          "distance": 159,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 270
+        }
+      ],
+      "run_id": "pibt_token-seed26",
+      "seed": 26,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2671,
+      "total_wait_ticks": 1619,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 4,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 151,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2849
+        },
+        {
+          "distance": 292,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2708
+        },
+        {
+          "distance": 189,
+          "robot_id": 3,
+          "tasks_completed": 1,
+          "wait_ticks": 2811
+        },
+        {
+          "distance": 252,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2748
+        },
+        {
+          "distance": 328,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2672
+        },
+        {
+          "distance": 291,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2709
+        },
+        {
+          "distance": 151,
+          "robot_id": 7,
+          "tasks_completed": 1,
+          "wait_ticks": 2849
+        },
+        {
+          "distance": 222,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2778
+        },
+        {
+          "distance": 413,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2587
+        },
+        {
+          "distance": 159,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2841
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed26",
+      "seed": 26,
+      "system": "stop_and_wait",
+      "tasks_completed": 16,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2448,
+      "total_wait_ticks": 27552,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 450,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 239,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 211
+        },
+        {
+          "distance": 289,
+          "robot_id": 2,
+          "tasks_completed": 3,
+          "wait_ticks": 161
+        },
+        {
+          "distance": 196,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 254
+        },
+        {
+          "distance": 352,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 98
+        },
+        {
+          "distance": 317,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 133
+        },
+        {
+          "distance": 388,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 62
+        },
+        {
+          "distance": 443,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 7
+        },
+        {
+          "distance": 142,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 308
+        },
+        {
+          "distance": 161,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 289
+        },
+        {
+          "distance": 214,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 236
+        }
+      ],
+      "run_id": "pibt_token-seed27",
+      "seed": 27,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2741,
+      "total_wait_ticks": 1759,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 2,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 239,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2761
+        },
+        {
+          "distance": 147,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2853
+        },
+        {
+          "distance": 196,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2804
+        },
+        {
+          "distance": 352,
+          "robot_id": 4,
+          "tasks_completed": 3,
+          "wait_ticks": 2648
+        },
+        {
+          "distance": 146,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2854
+        },
+        {
+          "distance": 388,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2612
+        },
+        {
+          "distance": 443,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2557
+        },
+        {
+          "distance": 142,
+          "robot_id": 8,
+          "tasks_completed": 1,
+          "wait_ticks": 2858
+        },
+        {
+          "distance": 161,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2839
+        },
+        {
+          "distance": 214,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2786
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed27",
+      "seed": 27,
+      "system": "stop_and_wait",
+      "tasks_completed": 18,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2428,
+      "total_wait_ticks": 27572,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 351,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 276,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 75
+        },
+        {
+          "distance": 227,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 124
+        },
+        {
+          "distance": 333,
+          "robot_id": 3,
+          "tasks_completed": 3,
+          "wait_ticks": 18
+        },
+        {
+          "distance": 213,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 138
+        },
+        {
+          "distance": 179,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 172
+        },
+        {
+          "distance": 172,
+          "robot_id": 6,
+          "tasks_completed": 1,
+          "wait_ticks": 179
+        },
+        {
+          "distance": 273,
+          "robot_id": 7,
+          "tasks_completed": 3,
+          "wait_ticks": 78
+        },
+        {
+          "distance": 338,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 13
+        },
+        {
+          "distance": 258,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 93
+        },
+        {
+          "distance": 277,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 74
+        }
+      ],
+      "run_id": "pibt_token-seed28",
+      "seed": 28,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2546,
+      "total_wait_ticks": 964,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 3,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 333,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 2667
+        },
+        {
+          "distance": 227,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2773
+        },
+        {
+          "distance": 270,
+          "robot_id": 3,
+          "tasks_completed": 3,
+          "wait_ticks": 2730
+        },
+        {
+          "distance": 213,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2787
+        },
+        {
+          "distance": 179,
+          "robot_id": 5,
+          "tasks_completed": 1,
+          "wait_ticks": 2821
+        },
+        {
+          "distance": 146,
+          "robot_id": 6,
+          "tasks_completed": 0,
+          "wait_ticks": 2854
+        },
+        {
+          "distance": 137,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2863
+        },
+        {
+          "distance": 338,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2662
+        },
+        {
+          "distance": 177,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2823
+        },
+        {
+          "distance": 277,
+          "robot_id": 10,
+          "tasks_completed": 2,
+          "wait_ticks": 2723
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed28",
+      "seed": 28,
+      "system": "stop_and_wait",
+      "tasks_completed": 17,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2297,
+      "total_wait_ticks": 27703,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 373,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 327,
+          "robot_id": 1,
+          "tasks_completed": 2,
+          "wait_ticks": 46
+        },
+        {
+          "distance": 196,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 177
+        },
+        {
+          "distance": 236,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 137
+        },
+        {
+          "distance": 199,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 174
+        },
+        {
+          "distance": 191,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 182
+        },
+        {
+          "distance": 290,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 83
+        },
+        {
+          "distance": 181,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 192
+        },
+        {
+          "distance": 241,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 132
+        },
+        {
+          "distance": 365,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 8
+        },
+        {
+          "distance": 213,
+          "robot_id": 10,
+          "tasks_completed": 3,
+          "wait_ticks": 160
+        }
+      ],
+      "run_id": "pibt_token-seed29",
+      "seed": 29,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2439,
+      "total_wait_ticks": 1291,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 5,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 263,
+          "robot_id": 1,
+          "tasks_completed": 1,
+          "wait_ticks": 2737
+        },
+        {
+          "distance": 385,
+          "robot_id": 2,
+          "tasks_completed": 2,
+          "wait_ticks": 2615
+        },
+        {
+          "distance": 236,
+          "robot_id": 3,
+          "tasks_completed": 2,
+          "wait_ticks": 2764
+        },
+        {
+          "distance": 198,
+          "robot_id": 4,
+          "tasks_completed": 1,
+          "wait_ticks": 2802
+        },
+        {
+          "distance": 191,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2809
+        },
+        {
+          "distance": 98,
+          "robot_id": 6,
+          "tasks_completed": 0,
+          "wait_ticks": 2902
+        },
+        {
+          "distance": 244,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2756
+        },
+        {
+          "distance": 241,
+          "robot_id": 8,
+          "tasks_completed": 3,
+          "wait_ticks": 2759
+        },
+        {
+          "distance": 264,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2736
+        },
+        {
+          "distance": 89,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2911
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed29",
+      "seed": 29,
+      "system": "stop_and_wait",
+      "tasks_completed": 15,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2209,
+      "total_wait_ticks": 27791,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": 447,
+      "deadlocks_detected": 0,
+      "edge_collisions": 0,
+      "finished_within_limit": true,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "mode_occupancy": {
+        "autonomous": 0.0,
+        "cautious": 0.0,
+        "cooperative": 1.0
+      },
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 430,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 17
+        },
+        {
+          "distance": 185,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 262
+        },
+        {
+          "distance": 215,
+          "robot_id": 3,
+          "tasks_completed": 3,
+          "wait_ticks": 232
+        },
+        {
+          "distance": 282,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 165
+        },
+        {
+          "distance": 439,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 8
+        },
+        {
+          "distance": 323,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 124
+        },
+        {
+          "distance": 305,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 142
+        },
+        {
+          "distance": 193,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 254
+        },
+        {
+          "distance": 326,
+          "robot_id": 9,
+          "tasks_completed": 2,
+          "wait_ticks": 121
+        },
+        {
+          "distance": 173,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 274
+        }
+      ],
+      "run_id": "pibt_token-seed30",
+      "seed": 30,
+      "system": "pibt_token",
+      "tasks_completed": 20,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2871,
+      "total_wait_ticks": 1599,
+      "vertex_collisions": 0
+    },
+    {
+      "claim_conflicts": 0,
+      "comparable_to_baseline": false,
+      "completion_ticks": null,
+      "deadlocks_detected": 1,
+      "edge_collisions": 0,
+      "finished_within_limit": false,
+      "improvement_pct": null,
+      "map": "warehouse-10-20-10-2-1",
+      "num_robots": 10,
+      "per_robot": [
+        {
+          "distance": 430,
+          "robot_id": 1,
+          "tasks_completed": 3,
+          "wait_ticks": 2570
+        },
+        {
+          "distance": 185,
+          "robot_id": 2,
+          "tasks_completed": 1,
+          "wait_ticks": 2815
+        },
+        {
+          "distance": 215,
+          "robot_id": 3,
+          "tasks_completed": 3,
+          "wait_ticks": 2785
+        },
+        {
+          "distance": 282,
+          "robot_id": 4,
+          "tasks_completed": 2,
+          "wait_ticks": 2718
+        },
+        {
+          "distance": 439,
+          "robot_id": 5,
+          "tasks_completed": 2,
+          "wait_ticks": 2561
+        },
+        {
+          "distance": 323,
+          "robot_id": 6,
+          "tasks_completed": 2,
+          "wait_ticks": 2677
+        },
+        {
+          "distance": 305,
+          "robot_id": 7,
+          "tasks_completed": 2,
+          "wait_ticks": 2695
+        },
+        {
+          "distance": 191,
+          "robot_id": 8,
+          "tasks_completed": 2,
+          "wait_ticks": 2809
+        },
+        {
+          "distance": 288,
+          "robot_id": 9,
+          "tasks_completed": 1,
+          "wait_ticks": 2712
+        },
+        {
+          "distance": 173,
+          "robot_id": 10,
+          "tasks_completed": 1,
+          "wait_ticks": 2827
+        }
+      ],
+      "run_id": "stop_and_wait-warehouse-10-20-10-2-1-seed30",
+      "seed": 30,
+      "system": "stop_and_wait",
+      "tasks_completed": 19,
+      "tasks_total": 20,
+      "tick_limit": 3000,
+      "token_skips": 0,
+      "total_distance": 2831,
+      "total_wait_ticks": 27169,
+      "vertex_collisions": 0
+    }
+  ]
+}

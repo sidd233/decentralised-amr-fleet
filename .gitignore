@@ -1,0 +1,14 @@
+# Build output and dependencies
+/target/
+frontend/node_modules/
+frontend/dist/
+
+# Local tooling and editor state
+.claude/
+.vscode/
+.idea/
+*.log
+
+# Local-only project instructions and working notes (kept off the public repo)
+CLAUDE.md
+docs/

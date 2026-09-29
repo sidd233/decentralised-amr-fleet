@@ -1,0 +1,10 @@
+# Keeps the Docker build context small and the build reproducible from source, not from
+# whatever happens to be sitting in a local target/ directory.
+target/
+.git/
+.claude/
+docs/
+results/
+*.log
+frontend/node_modules/
+frontend/dist/

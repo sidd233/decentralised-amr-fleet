@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SIH26123 Benchmark Metrics Schema",
+  "description": "One entry per benchmark run. Used by run_experiment, degradation_sweep, and the verifier that checks report numbers against these files.",
+  "type": "object",
+  "properties": {
+    "runs": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/run" }
+    }
+  },
+  "required": ["runs"],
+  "definitions": {
+    "run": {
+      "type": "object",
+      "properties": {
+        "run_id": {
+          "type": "string",
+          "description": "Unique id for this run, e.g. 'pibt_token-seed7-r5'."
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "map": {
+          "type": "string",
+          "description": "Map filename, e.g. 'warehouse-10-20-10-2-1'."
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "system": {
+          "type": "string",
+          "enum": ["pibt_token", "stop_and_wait", "centralized_cbs"],
+          "description": "Which system produced this run — our system or a baseline."
+        },
+        "num_robots": {
+          "type": "integer",
+          "minimum": 3
+        },
+        "tick_limit": {
+          "type": "integer",
+          "description": "Hard cap on run length. If the run hits this without finishing, finished_within_limit is false and improvement_pct must be null."
+        },
+        "tasks_total": {
+          "type": "integer"
+        },
+        "tasks_completed": {
+          "type": "integer"
+        },
+        "finished_within_limit": {
+          "type": "boolean"
+        },
+        "completion_ticks": {
+          "type": ["integer", "null"],
+          "description": "Tick at which all tasks completed. Null if finished_within_limit is false."
+        },
+        "vertex_collisions": {
+          "type": "integer",
+          "description": "Two robots occupying the same cell at the same tick. Must be 0 for pibt_token in every run — this is the PS's hard requirement, not an average."
+        },
+        "edge_collisions": {
+          "type": "integer",
+          "description": "Two robots swapping cells across one tick."
+        },
+        "deadlocks_detected": {
+          "type": "integer",
+          "description": "Reported for baselines. Should be structurally impossible (always 0) for pibt_token, not just empirically low."
+        },
+        "total_distance": {
+          "type": "number",
+          "description": "Sum of cells moved across all robots."
+        },
+        "total_wait_ticks": {
+          "type": "integer"
+        },
+        "claim_conflicts": {
+          "type": "integer",
+          "description": "Sum, across all robots, of `TaskLayer::claim_conflicts()` — how many times a robot's own task commitment disagreed with the token's recorded claimant and had to be reconciled (`docs/decisions.md`'s claim-reconciliation decision entry, closing the Step 1B token-fork finding). Only `pibt_token` accumulates this (`stop_and_wait` doesn't use the token protocol). Currently always 0 for `run_experiment`/`degradation_sweep`'s own in-process harness, since neither yet injects token-level loss (only real-transport runs and the dedicated property test in `tests/token_passing.rs` do) — present so the field is populated the moment a harness does."
+        },
+        "token_skips": {
+          "type": "integer",
+          "description": "Sum, across all robots, of `TaskLayer::skip_count()` — how many times a robot exhausted its delivery backoff budget to a peer and skipped it (Amendment B, `docs/decisions.md`'s Fix 1 entry). Only meaningful over real transport (`run_one_cycle`); always 0 for the in-process `new_pure` path `run_experiment.rs`/`degradation_sweep.rs` use, since that path has no backoff/delivery concept at all."
+        },
+        "comms": {
+          "type": "object",
+          "properties": {
+            "packet_loss_pct_injected": { "type": "number" },
+            "latency_ticks_injected": { "type": "integer" },
+            "packets_sent": { "type": "integer" },
+            "packets_dropped": { "type": "integer" }
+          },
+          "description": "Present for degradation_sweep runs. Omitted or zeroed for clean baseline runs."
+        },
+        "mode_occupancy": {
+          "type": "object",
+          "properties": {
+            "cooperative": { "type": "number" },
+            "cautious": { "type": "number" },
+            "autonomous": { "type": "number" }
+          },
+          "description": "Fraction of total robot-ticks spent in each mode. Should sum to ~1.0. Only meaningful for pibt_token."
+        },
+        "comparable_to_baseline": {
+          "type": "boolean",
+          "description": "False if this run (or the baseline it's compared against) didn't finish inside tick_limit. When false, improvement_pct MUST be null — never compute a percentage against an unfinished run."
+        },
+        "improvement_pct": {
+          "type": ["number", "null"],
+          "description": "Task-completion-time improvement vs. stop_and_wait on the same seed/map. Null when comparable_to_baseline is false."
+        },
+        "per_robot": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "robot_id": { "type": "integer" },
+              "distance": { "type": "number" },
+              "wait_ticks": { "type": "integer" },
+              "tasks_completed": { "type": "integer" }
+            }
+          }
+        }
+      },
+      "required": [
+        "run_id", "map", "seed", "system", "num_robots", "tick_limit",
+        "tasks_total", "tasks_completed", "finished_within_limit",
+        "vertex_collisions", "edge_collisions", "deadlocks_detected",
+        "comparable_to_baseline", "improvement_pct"
+      ]
+    }
+  }
+}
