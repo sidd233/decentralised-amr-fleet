@@ -627,6 +627,7 @@ async fn handle_socket(mut socket: WebSocket, state: SharedState) {
 /// static files from `frontend_dir` (Vite's `npm run build` output, per Decision 11).
 pub struct DashboardServer {
     router: Router,
+    state: SharedState,
 }
 
 impl DashboardServer {
@@ -651,6 +652,11 @@ impl DashboardServer {
             reset_requested: AtomicBool::new(false),
         });
 
+        // A browser connecting before any robot is on the bus would otherwise get the bare
+        // default snapshot (`can_control: false`) and never see the console that launches
+        // the fleet. `send_replace` because `send` doesn't store a value with no receivers.
+        state.tx.send_replace(state.compose(&FleetSnapshot::default()));
+
         spawn_listener_thread(Arc::clone(&state));
 
         let router = Router::new()
@@ -663,9 +669,9 @@ impl DashboardServer {
             .route("/api/tasks/{id}", delete(cancel_task_handler))
             .route("/api/block", post(block_handler))
             .fallback_service(ServeDir::new(frontend_dir))
-            .with_state(state);
+            .with_state(Arc::clone(&state));
 
-        Self { router }
+        Self { router, state }
     }
 
     /// Binds `port` and serves forever (or until the process is killed) — matches
@@ -680,6 +686,24 @@ impl DashboardServer {
 mod tests {
     use super::*;
     use crate::protocol::messages::{ClaimEntry, Heartbeat, ModeAnnounce, TokenMsg};
+
+    /// The first snapshot a browser gets, before any robot has spoken, must already say
+    /// whether the operator console is available (it is what launches the fleet).
+    #[test]
+    fn initial_snapshot_reports_can_control_before_any_robot_is_heard() {
+        let grid = Grid::load("maps/warehouse-10-20-10-2-1.map").expect("map should load");
+        let launcher = LauncherConfig {
+            map_path: "maps/warehouse-10-20-10-2-1.map".into(),
+            spawn_clock: false,
+            grid,
+        };
+        let managed = DashboardServer::new("frontend/dist", Some(launcher));
+        assert!(managed.state.tx.borrow().can_control);
+        assert!(!managed.state.tx.borrow().running);
+
+        let read_only = DashboardServer::new("frontend/dist", None);
+        assert!(!read_only.state.tx.borrow().can_control);
+    }
 
     fn received(sender_id: u32, position: (i32, i32), payload: Payload) -> Received {
         Received {
